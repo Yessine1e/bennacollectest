@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Zen+Loop&display=swap" rel="stylesheet">
+   
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Benna COLLECTION</title>
+
+   <style>
+      *{
+         box-sizing: border-box;
+         margin: 0;
+         padding: 0;
+      }
+      body {
+         color: white;
+         line-height: 2.5;
+         font-family: 'Lato', sans-serif;
+         background-color: rgb(248, 206, 248);
+ }
+      #first {
+         
+         color: violet;
+      }
+      #big, #big2, #big3 {
+         display: block;
+         background-color: rgb(104, 2, 99);
+         max-width: 600px;
+         margin: auto;
+         padding: 0px 20px 0px 20px;
+         
+      }
+      #big{
+         padding-top: 10px
+      }
+      #big3{
+         width: 100%;
+         color: white;
+         padding-bottom: 30px;
+      }
+      .button:hover{
+         background-color: rgb(241, 158, 241);
+      }
+      h1{
+         color: black;
+         text-align: center;
+         margin:20px ;
+      }
+      #name, #email, #password, #product, .button {
+         display: block;
+         width: 100%;
+         margin: 5px;
+      }
+
+      #name, #email, #password, #product{
+         height: 30px;
+         border: 1px solid black;
+      }
+
+      .button{
+         color: white;
+         font-weight: bold;
+         background-color: violet;
+         margin-top: 30px;
+         padding: 10px 15px;
+         cursor: pointer;
+         border-radius: 3px;
+      }
+      .allright{
+         text-align: center;
+         color: rgb(104, 2, 99);
+         margin-bottom: 25px;
+      }
+   
+      #product{
+         height: 119px;
+      }
+      .form-group input{
+         border-radius: 5px;
+      }
+      .form-group textarea {
+         border-radius: 5px;
+      }
+   </style>
+</head>
+<body>
+   <div>
+      <h1>BENNA COLLECTION</h1>
+   </div>
+   <div id="big"> 
+      <h2 id="first">THIS IS BENNA COLLLECTION</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus nemo officia beatae temporibus. Sequi, incidunt! Aliquam aperiam minus ipsam fuga Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus nemo officia beatae temporibus. Sequi, incidunt! Aliquam aperiam minus ipsam fuga Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus nemo officia beatae temporibus. Sequi, incidunt! Aliquam aperiam minus ipsam fuga.</p>
+
+   </div>
+   <div id="big2">
+      <h2 id="first">BUY NOW</h2>
+      <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ab minus quasi voluptatibus quis voluptates cum earum labore sed eligendi.</P>
+      <div id="big3">
+         <div class="form-group">
+            <label for="name"></label>Name
+            <input type="text" name="name" id="name">
+         </div>
+         <div class="form-group">
+            <label for="email"></label>Email
+            <input type="email" name="email" id="email">
+         </div>
+         <div class="form-group">
+            <label for="password"></label>Password
+            <input type="password" name="password" id="password">
+         </div>
+         <div class="form-group">
+            <label for="product"></label>Product
+            <textarea name="product" id="product" cols="30" rows="10"></textarea>
+         </div>
+         <button class="button">SUBMIT</button>
+      </div>
+   </div>
+   <div class="allright">
+      <p>all right reserved to BENNA COLLECTION &copy;</p>
+   </div>
+</body>
+</html>
